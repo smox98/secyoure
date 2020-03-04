@@ -1,0 +1,8 @@
+#!/bin/bash
+# run
+if [ -z "$1" ]
+then
+      echo "USAGE: $0 [PORT_NUM]"
+else
+      python3 ./client.py "$1"
+fi
