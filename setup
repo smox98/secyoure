@@ -1,0 +1,13 @@
+#!/bin/bash
+# Setup with all necessary versions
+# Run this file as sudo
+
+# Update pip
+python3 -m pip install --upgrade pip
+
+# OpenCV for video feed and motion
+echo y | pip3 uninstall opencv-python
+pip3 install opencv-python==4.1.2.30
+
+# Twilio
+pip3 install twilio
