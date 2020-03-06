@@ -5,9 +5,10 @@
 # Update pip
 python3 -m pip install --upgrade pip
 
-# OpenCV for video feed and motion
+# OpenCV and imutils for video feed and motion
 echo y | pip3 uninstall opencv-python
 pip3 install opencv-python==4.1.2.30
+pip3 install imutils
 
 # Twilio
 pip3 install twilio
