@@ -12,7 +12,7 @@ while True:
     frame = stream.read()
 
     # Apply some ill mods to current frame and show it
-    frame = imutils.resize(frame, width=500)
+    frame = imutils.resize(frame, width=1000)
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     frame = cv2.GaussianBlur(frame, (25, 25), 0)
 
@@ -39,7 +39,7 @@ while True:
     
     # Show the current frame
     cv2.imshow('frame', frame)
-    print(max_area)
+    # print(max_area)
 
     # Listen for 'q' keypress to quit
     if cv2.waitKey(1) & 0xFF == ord('q'):
