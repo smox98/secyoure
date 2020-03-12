@@ -4,7 +4,7 @@ import struct
 import pickle
 
 UDP_IP = socket.gethostname()
-UDP_PORT = 5007
+UDP_PORT = 8080
 LISTENING = (UDP_IP, UDP_PORT)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
