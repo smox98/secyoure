@@ -4,5 +4,5 @@ if [ -z "$1" ]
 then
       echo "USAGE: $0 [PORT_NUM]"
 else
-      python3 ./server.py "$1"
+      python3 ./threaded_server.py "$1"
 fi
