@@ -8,6 +8,8 @@ To run the server: `./RunServer <port>`
 
 To run the client: `./RunClient <port>`
 
+Note: You have to fill in your individual auth details for Twilio in order for the server to work and send text alerts. 
+
 
 ### references 
 - [OpenCV pip installation](https://pypi.org/project/opencv-python/)
