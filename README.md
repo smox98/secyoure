@@ -1,12 +1,13 @@
 # secyoure
 
-## components
-- getting video into the python program
-- recognizing motion from the video, possibly using `opencv`
-- sending the notification via twilio/sms
-- connecting to the server
-- broadcasting video to the clients
-- displaying the video on the client side
+
+## how to run
+Make sure you're running python 3 and then run `sudo ./setup` in order to get all the necessary python packages downloaded and installed properly. 
+
+To run the server: `./RunServer <port>`
+
+To run the client: `./RunClient <port>`
+
 
 ### references 
 - [OpenCV pip installation](https://pypi.org/project/opencv-python/)
